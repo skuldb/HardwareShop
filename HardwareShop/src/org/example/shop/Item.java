@@ -8,7 +8,7 @@ public class Item extends EntityBase {
 
 	
 	
-	public Item(String fullname, float sellPrice, float netPrice,
+/*	public Item(String fullname, float sellPrice, float netPrice,
 			String description, Manufacturer manufacturer, List<Order> order) {
 		super();
 		this.fullname = fullname;
@@ -17,7 +17,7 @@ public class Item extends EntityBase {
 		this.description = description;
 		this.manufacturer = manufacturer;
 		this.order = order;
-	}
+	}*/
 	
 	private String fullname;
 	private float sellPrice;
@@ -30,10 +30,10 @@ public class Item extends EntityBase {
 	
 	
 	//getters, setters
-	public String getFullname() {
+	public String getFullName() {
 		return fullname;
 	}
-	public void setFullname(String fullname) {
+	public void setFullName(String fullname) {
 		this.fullname = fullname;
 	}
 	public float getSellPrice() {
